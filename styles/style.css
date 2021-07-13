@@ -46,7 +46,7 @@ header {
 .h-left {
   display: flex;
   align-items: center;
-  margin-left: 220px;
+  padding-left: 220px;
 }
 .h-left img {
   width: 40.42px;
@@ -64,13 +64,14 @@ header {
 }
 
 .h-right {
-  align-items: center;
-  margin-right: 190px;
-}
-.h-right {
+  padding-right: 190px;
   display: flex;
+  /* align-items: center; */
 }
+
 .h-right a {
+  display: flex;
+  align-items: center;
   color: #fff;
   text-decoration: none;
   margin-right: 30px;
